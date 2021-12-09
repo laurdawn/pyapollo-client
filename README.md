@@ -14,7 +14,7 @@
 client = ApolloClient(app_id=<appId>, ip:str=<ip>, port:int=<port>, namespaces:list = <namespaces>)
 #获取配置value
 key_value = client.get_value(key=<key>, namespace=<namespace>)
-namespace_value = client.get_value(namespace=<namespace>)
+namespace_value = client.get(namespace=<namespace>)
 ```
 
 
